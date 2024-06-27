@@ -37,6 +37,7 @@ This project is a web-based workflow system that allows users to input customer 
    ```
    Open `http://localhost:5000` in your web browser.
 10. Database is saved as database.db 
+
 ## Assumptions
 
 - The uploaded Excel file should have the format: month, income, expense (in the first three columns).
