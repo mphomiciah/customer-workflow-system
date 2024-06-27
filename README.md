@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is a web-based workflow system that allows users to input customer information via an HTML form and upload an Excel file containing the customer's financial income and expenses for the last 12 months. The system processes the uploaded file, stores the data in a database, and renders a temporal graph showing the customer's income and expenditure.
+This project is a web-based workflow system that allows users to input customer information via an HTML form and upload an Excel file containing the customer's financial income and expenses for the last 12 months. The system processes the uploaded file, stores the data in a database, and renders a temporal graph showing the customer's income and expenses.
 
 
 ## Requirements
