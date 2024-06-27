@@ -21,7 +21,12 @@ This project is a web-based workflow system that allows users to input customer 
    cd customer-workflow-system
 2. Verify Python installation by opening a command prompt (CMD) and typing `python --version`.
 3. If you don't have python, Install Python from [python.org](https://www.python.org/downloads/). Don't forget to click both buttons to add python.exe to PATH
-4. Create and activate a virtual environment (python -m venv venv, source venv/bin/activate).It's optional, you can skip this step if you want.
+4. Create and activate a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    ```. 
+    It's optional, you can skip this step if you want.
 5. Verify pip installation by opening a command prompt (CMD) and typing `pip --version`.
 6. If you don't have pip, Install `pip`, the Python package installer, by following the [pip installation guide](https://pip.pypa.io/en/stable/installation/).
 7. Once `pip` is installed, navigate to the project directory in CMD.
