@@ -18,7 +18,7 @@ This project is a web-based workflow system that allows users to input customer 
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/mphomiciah/customer-workflow-system.git
-   cd customer_workflow_system
+   cd customer-workflow-system
 2. Verify Python installation by opening a command prompt (CMD) and typing `python --version`.
 3. If you don't have python, Install Python from [python.org](https://www.python.org/downloads/).
 4. Create and activate a virtual environment (python -m venv venv, source venv/bin/activate).It's optional, you cn skip this step if you want.
