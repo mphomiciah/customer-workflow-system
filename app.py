@@ -136,7 +136,7 @@ def generate_graph(graph_path):
     bar_width = 0.35
     index = range(len(chart_data['labels']))
 
-    fig, ax = plt.subplots(figsize=(10, 6))
+    fig, ax = plt.subplots(figsize=(10, 6))  # figure and axis for the bar chart
     bar1 = ax.bar(index, chart_data['income'], bar_width, label='Income', color=income_color)
     bar2 = ax.bar([i + bar_width for i in index], chart_data['expense'], bar_width, label='Expenses', color=expense_color)
 
