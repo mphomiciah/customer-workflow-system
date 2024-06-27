@@ -35,7 +35,7 @@ This project is a web-based workflow system that allows users to input customer 
    ```bash
    python app.py
    ```
-   Open `http://localhost:5000` in your web browser.
+   Open `http://localhost:5000` in your web browser, or you can follow the http link you get when running.
 10. Database is saved as database.db 
 
 ## Assumptions
