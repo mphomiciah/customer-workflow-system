@@ -1,0 +1,38 @@
+
+Documentation: Customer Workflow System
+
+Introduction
+
+This documentation outlines the design and implementation of a web-based workflow system developed using Flask. The system is designed to capture customer information and financial data from an uploaded Excel file, process this data, and generate a temporal graph showing income and expenses over the last 12 months. This document covers the architecture, key components, setup instructions, and operational details of the system. 
+
+Workflow Execution::
+1. User Input: Users enter customer details (first name, last name, date of birth) through a simple HTML form.
+2. File Upload: Excel files containing financial data are uploaded via the same form.
+3. Data Processing: Extracted data from uploaded files is processed to compute monthly income and expenses, which are then stored in the SQLite database.
+4. Graph Display: Generated graphs are displayed in the frontend, providing users with visual insights into the financial trends over the specified period.
+
+Components:
+1. Backend Implementation (Flask):
+
+    - Routing: Defined routes to manage user inputs, file uploads, and graph visualization (/, /upload, /graph).
+    - Data Storage: Utilized SQLite as a relational database to store customer information (first name, last name, date of birth) and financial data (monthly income and expenses).
+    - File Handling: Implemented functionality to handle Excel file uploads (openpyxl library used for parsing data).
+    - Graph Generation: Employed Matplotlib for generating temporal graphs depicting income and expenses over the last 12 months.
+
+2. Frontend Design:
+
+    - HTML Templates: Designed HTML templates (index.html for user input and file upload, graph.html for displaying graphs).
+    - Styling: Basic styling applied using Bootstrap.
+
+Setup and Deployment
+1. Setup Instructions:
+    - Clone the project repository and navigate to the project directory.
+    - Create and activate a virtual environment (python -m venv venv, source venv/bin/activate).Its optional
+    - Install required dependencies (pip install -r requirements.txt).
+    - Run the Flask application (python app.py).
+
+2.Usage Instructions:
+    - Access the application through http://localhost:5000 in a web browser. When you run the program you will also be given a link which you can use.
+    - Fill out the input form with customer details and upload the corresponding Excel file.
+    - Upon submission, the system processes the data, stores it in the SQLite database, and generates a graphical representation of income and expenses.
+    - Navigate to the /graph page to view the generated graphs.
