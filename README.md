@@ -20,7 +20,7 @@ This project is a web-based workflow system that allows users to input customer 
    git clone https://github.com/mphomiciah/customer-workflow-system.git
    cd customer-workflow-system
 2. Verify Python installation by opening a command prompt (CMD) and typing `python --version`.
-3. If you don't have python, Install Python from [python.org](https://www.python.org/downloads/).
+3. If you don't have python, Install Python from [python.org](https://www.python.org/downloads/). Don't forget to click both buttons to add python.exe to PATH
 4. Create and activate a virtual environment (python -m venv venv, source venv/bin/activate).It's optional, you can skip this step if you want.
 5. Verify pip installation by opening a command prompt (CMD) and typing `pip --version`.
 6. If you don't have pip, Install `pip`, the Python package installer, by following the [pip installation guide](https://pip.pypa.io/en/stable/installation/).
@@ -31,7 +31,7 @@ This project is a web-based workflow system that allows users to input customer 
    python app.py
    ```
    Open `http://localhost:5000` in your web browser.
-
+10. Database is saved as database.db 
 ## Assumptions
 
 - The uploaded Excel file should have the format: month, income, expense (in the first three columns).
@@ -50,7 +50,14 @@ This project is a web-based workflow system that allows users to input customer 
 ## Technologies Used
 
 - **Flask:** Web framework for Python.
-- **SQLite:** Lightweight relational database management system.
+- **SQLite:** Relational database.
 - **matplotlib:** Data visualization library in Python.
 - **openpyxl:** Library to read/write Excel files.
 - **Bootstrap**: Frontend framework for styling HTML templates.
+
+# for help
+Contact 
+Mpho Seerane
+linkedin : https://www.linkedin.com/in/mpho-seerane-04b196192/
+
+# Thank you
